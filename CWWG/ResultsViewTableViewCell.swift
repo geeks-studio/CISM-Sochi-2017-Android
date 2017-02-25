@@ -53,6 +53,7 @@ class ResultsViewTableViewCell: SeparatorsTableViewCell, Reusable {
     didSet {
       scoresLabel.textColor = AppColor.white
       scoresLabel.font = AppFont.latoBoldFont(ofSize: 17)
+      scoresLabel.adjustsFontSizeToFitWidth = true
     }
   }
   

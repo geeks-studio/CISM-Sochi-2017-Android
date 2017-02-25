@@ -60,8 +60,6 @@ class WebViewViewController: UIViewController {
       openURL(url: url)
     }
     
-    webView.scalesPageToFit = true
-    
     if navigationController?.viewControllers.count == 1 {
       addMenuButton()
     }

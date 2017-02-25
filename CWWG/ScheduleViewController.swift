@@ -135,7 +135,12 @@ extension ScheduleViewController: UITableViewDataSource {
     
     let cell = tableView.dequeueReusableCell(for: indexPath) as ScheduleTableViewCell
     
-    cell.eventNameLabel.text = event.name
+    if eventType.name.isEmpty {
+      cell.eventNameLabel.text = event.name
+    } else {
+      cell.eventNameLabel.text = eventType.name + ": " + event.name
+    }
+    
     cell.timeLabel.text = event.timeIntervalString
     
     cell.updateCellPosition(at: indexPath, inside: tableView)

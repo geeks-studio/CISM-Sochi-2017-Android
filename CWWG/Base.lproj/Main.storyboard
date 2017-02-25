@@ -313,7 +313,7 @@
             <objects>
                 <navigationController storyboardIdentifier="NewsNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="adm-lC-rNU" customClass="NavigationViewController" customModule="CWWG" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jM9-sa-2VN">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="jM9-sa-2VN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1061,16 +1061,16 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Артем Чемпионовский" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0b-AZ-vK1">
-                                                    <rect key="frame" x="148" y="22" width="150" height="21"/>
+                                                    <rect key="frame" x="148" y="22" width="141" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HV3-pC-WoP">
-                                                    <rect key="frame" x="310" y="18" width="65" height="30"/>
+                                                    <rect key="frame" x="301" y="18" width="74" height="30"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnf-mz-95A">
-                                                            <rect key="frame" x="22" y="4" width="20.5" height="21"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnf-mz-95A">
+                                                            <rect key="frame" x="27" y="4" width="20.5" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
@@ -1078,9 +1078,10 @@
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.73838114310000003" green="0.3221125427" blue="0.24385972289999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
+                                                        <constraint firstItem="dnf-mz-95A" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="HV3-pC-WoP" secondAttribute="leading" constant="4" id="Dw2-o2-3Fx"/>
                                                         <constraint firstItem="dnf-mz-95A" firstAttribute="centerX" secondItem="HV3-pC-WoP" secondAttribute="centerX" id="GM9-eY-4Zv"/>
                                                         <constraint firstAttribute="height" constant="30" id="Gq1-hq-pQO"/>
-                                                        <constraint firstAttribute="width" constant="65" id="H8C-Bq-GAf"/>
+                                                        <constraint firstAttribute="width" constant="74" id="H8C-Bq-GAf"/>
                                                         <constraint firstItem="dnf-mz-95A" firstAttribute="centerY" secondItem="HV3-pC-WoP" secondAttribute="centerY" id="teI-jt-e6c"/>
                                                     </constraints>
                                                 </view>
@@ -1148,16 +1149,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Счет" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyH-VS-MjF">
-                                        <rect key="frame" x="328.5" y="34.5" width="28" height="14.5"/>
+                                        <rect key="frame" x="324" y="34.5" width="28" height="14.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I7g-cv-gn4">
-                                        <rect key="frame" x="310" y="26" width="65" height="30"/>
+                                        <rect key="frame" x="301" y="26" width="74" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="65" id="TTh-7p-dD4"/>
+                                            <constraint firstAttribute="width" constant="74" id="TTh-7p-dD4"/>
                                             <constraint firstAttribute="height" constant="30" id="WmQ-gs-Tpg"/>
                                         </constraints>
                                     </view>
@@ -1414,7 +1415,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_object_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="jAT-5j-z7Z">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="127"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQB-bu-wPW">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQB-bu-wPW">
                                                     <rect key="frame" x="20" y="34" width="335" height="29"/>
                                                     <string key="text">Многофункциональная арена
 «ледяной куб»</string>
@@ -1422,7 +1423,7 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Что проходит: Церемония открытия / закрытия Игр" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiS-TC-vjI">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Что проходит: Церемония открытия / закрытия Игр" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiS-TC-vjI">
                                                     <rect key="frame" x="20" y="80" width="335" height="13.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1716,7 +1717,7 @@
             <objects>
                 <navigationController storyboardIdentifier="ResultsNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="ddi-5R-46m" customClass="NavigationViewController" customModule="CWWG" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ddk-Er-y8L">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ddk-Er-y8L">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1787,7 +1788,7 @@
             <objects>
                 <navigationController storyboardIdentifier="ScheduleNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="o61-wx-ShQ" customClass="NavigationViewController" customModule="CWWG" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ECR-kh-P84">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ECR-kh-P84">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1805,7 +1806,7 @@
             <objects>
                 <navigationController storyboardIdentifier="ObjectsNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="KH7-Rp-I6x" customClass="NavigationViewController" customModule="CWWG" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="h7l-na-Emm">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="h7l-na-Emm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1823,7 +1824,7 @@
             <objects>
                 <navigationController storyboardIdentifier="ScreencastNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="mf1-d2-Oqe" customClass="NavigationViewController" customModule="CWWG" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lCE-TU-jAm">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="lCE-TU-jAm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1841,7 +1842,7 @@
             <objects>
                 <navigationController storyboardIdentifier="WebNavigation" automaticallyAdjustsScrollViewInsets="NO" id="Fb7-TU-f66" customClass="NavigationViewController" customModule="CWWG" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MVj-Xw-Iuu">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="MVj-Xw-Iuu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1881,6 +1882,6 @@
         <image name="img_weather_8xx" width="21" height="18"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aW9-xf-NH0"/>
+        <segue reference="cer-Tl-9l8"/>
     </inferredMetricsTieBreakers>
 </document>
